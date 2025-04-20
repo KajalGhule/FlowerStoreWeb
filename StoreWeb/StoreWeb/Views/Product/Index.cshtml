@@ -1,0 +1,56 @@
+﻿
+<style>
+    div.gallery {
+        margin: 5px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 180px;
+    }
+
+    div.gallery:hover {
+        border: 1px solid #777;
+    }
+
+    div.gallery img {
+        width: 100%;
+        height: auto;
+    }
+
+    div.desc {
+        padding: 15px;
+        text-align: center;
+    }
+</style>
+
+@using Catalog;
+@{
+    ViewData["Title"] = "Products Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Product Catalog</h1>
+</div>
+
+<h1>Todays Fresh Flowers</h1>
+<hr />
+<div>
+    @foreach (Product item in ViewData["products"] as List<Product>)
+    {
+        <div>
+
+            <!-- <p>@item.Title</p>
+             <img src="@item.ImageUrl" width="100" height="100"/>-->
+
+            <div class="gallery">
+                <a target="_blank" href="@item.ImageUrl">
+                    <img src="@item.ImageUrl" width="600" height="400">
+                </a>
+                <div class="desc">
+                    @item.Title |<a href="/product/details/@item.Id">Details</a>
+                </div>
+            </div>
+
+        </div>
+    }
+</div>
+

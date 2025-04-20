@@ -1,0 +1,51 @@
+﻿@using Catalog;
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Product Details</h2>
+@{
+
+    Product theProduct = ViewData["product"] as Product;
+}
+<table style="font-family:Arial">
+    <tr>
+        <td><b>Product :</b></td>
+        <td>@theProduct.Title</td>
+    </tr>
+    <tr>
+        <td><b>Image :</b></td>
+        <td>  <img src="@theProduct.ImageUrl" width="200" height="200" /></td>
+    </tr>
+    <tr>
+        <td><b>Description :</b></td>
+        <td>@theProduct.Description</td>
+    </tr>
+    <tr>
+        <td><b>Quantity :</b></td>
+        <td>@theProduct.Quantity</td>
+    </tr>
+
+    <td><b>Unit Price :</b></td>
+    <td>@theProduct.UnitPrice</td>
+    </tr>
+
+    <tr>
+        <td><b>Quantity :</b></td>
+        <td>@theProduct.Quantity</td>
+    </tr>
+
+    <tr>
+        <td>
+            @Html.ActionLink("Update", "Update", "Products", new { id = theProduct.Id }, "")
+        </td>
+        <td>
+            @Html.ActionLink("Delete", "Delete", "Products", new { id = theProduct.Id }, "")
+        </td>
+        <td>
+            @Html.ActionLink("Add to cart", "AddToCart", "ShoppingCart", new { id = theProduct.Id }, "")
+        </td>
+    </tr>
+</table>
+
