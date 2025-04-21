@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\TAP\\FlowerStoreWeb\\StoreWeb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{779EDED5-9E27-40C6-ACB6-C702381D387D}|StoreWeb\\StoreWeb.csproj|d:\\tap\\flowerstoreweb\\storeweb\\storeweb\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{779EDED5-9E27-40C6-ACB6-C702381D387D}|StoreWeb\\StoreWeb.csproj|solutionrelative:storeweb\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{779EDED5-9E27-40C6-ACB6-C702381D387D}|StoreWeb\\StoreWeb.csproj|d:\\tap\\flowerstoreweb\\storeweb\\storeweb\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{779EDED5-9E27-40C6-ACB6-C702381D387D}|StoreWeb\\StoreWeb.csproj|solutionrelative:storeweb\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{779EDED5-9E27-40C6-ACB6-C702381D387D}|StoreWeb\\StoreWeb.csproj|d:\\tap\\flowerstoreweb\\storeweb\\storeweb\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{779EDED5-9E27-40C6-ACB6-C702381D387D}|StoreWeb\\StoreWeb.csproj|solutionrelative:storeweb\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{779EDED5-9E27-40C6-ACB6-C702381D387D}|StoreWeb\\StoreWeb.csproj|d:\\tap\\flowerstoreweb\\storeweb\\storeweb\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -42,11 +42,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\TAP\\FlowerStoreWeb\\StoreWeb\\StoreWeb\\Views\\Product\\Details.cshtml",
               "RelativeDocumentMoniker": "StoreWeb\\Views\\Product\\Details.cshtml",
@@ -107,13 +107,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ProductController.cs",
               "DocumentMoniker": "D:\\TAP\\FlowerStoreWeb\\StoreWeb\\StoreWeb\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "StoreWeb\\Controllers\\ProductController.cs",
               "ToolTip": "D:\\TAP\\FlowerStoreWeb\\StoreWeb\\StoreWeb\\Controllers\\ProductController.cs",
               "RelativeToolTip": "StoreWeb\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-20T11:23:58.724Z",
               "EditorCaption": ""
