@@ -64,3 +64,5 @@ bower_components/
 
 # dotenv environment files
 .env
+
+.vs/

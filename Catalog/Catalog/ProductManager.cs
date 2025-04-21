@@ -8,16 +8,7 @@ namespace Catalog
 {
     public class ProductManager
     {
-        //public static List<string> GetProjectTitles()
-        //{
-        //    List<Product> products = GetAllProducts();
-        //    var productNames = 
-        //        from prod in products 
-        //        select prod.Title;
-
-        //    //return productNames as List<string>;
-        //    return productNames.ToList();
-        //}
+       
         public static async Task<List<string>> GetProjectTitles()
         {
             List<Product> products = await GetAllProducts();
@@ -58,6 +49,24 @@ namespace Catalog
             var products = await GetAllProducts();
             return products.FirstOrDefault(p => p.Id == id);
         }
+
+        public static async Task<List<Product?>> GetSoldOutProducts()
+        {
+            List<Product> products = await GetAllProducts();
+            var soldOutProducts = from prod in products
+                                  where prod.Quantity == 0
+                                  select prod;
+            return soldOutProducts as List<Product>;
+        }
+
+        public static async Task<Dictionary<string, List<Product>>> GetProductsGroupByCategory()
+        {
+            var products = await GetAllProducts();
+            return products
+                .GroupBy(p => p.Category)
+                .ToDictionary(g => g.Key, g => g.ToList());
+        }
+
 
     }
 }

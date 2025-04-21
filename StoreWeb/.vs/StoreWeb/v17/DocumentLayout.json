@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{779EDED5-9E27-40C6-ACB6-C702381D387D}|StoreWeb\\StoreWeb.csproj|solutionrelative:storeweb\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{779EDED5-9E27-40C6-ACB6-C702381D387D}|StoreWeb\\StoreWeb.csproj|d:\\tap\\flowerstoreweb\\storeweb\\storeweb\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{779EDED5-9E27-40C6-ACB6-C702381D387D}|StoreWeb\\StoreWeb.csproj|solutionrelative:storeweb\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{779EDED5-9E27-40C6-ACB6-C702381D387D}|StoreWeb\\StoreWeb.csproj|d:\\tap\\flowerstoreweb\\storeweb\\storeweb\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{779EDED5-9E27-40C6-ACB6-C702381D387D}|StoreWeb\\StoreWeb.csproj|solutionrelative:storeweb\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{779EDED5-9E27-40C6-ACB6-C702381D387D}|StoreWeb\\StoreWeb.csproj|d:\\tap\\flowerstoreweb\\storeweb\\storeweb\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{779EDED5-9E27-40C6-ACB6-C702381D387D}|StoreWeb\\StoreWeb.csproj|solutionrelative:storeweb\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{779EDED5-9E27-40C6-ACB6-C702381D387D}|StoreWeb\\StoreWeb.csproj|d:\\tap\\flowerstoreweb\\storeweb\\storeweb\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{779EDED5-9E27-40C6-ACB6-C702381D387D}|StoreWeb\\StoreWeb.csproj|solutionrelative:storeweb\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{779EDED5-9E27-40C6-ACB6-C702381D387D}|StoreWeb\\StoreWeb.csproj|d:\\tap\\flowerstoreweb\\storeweb\\storeweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,13 +46,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\TAP\\FlowerStoreWeb\\StoreWeb\\StoreWeb\\Views\\Product\\Details.cshtml",
               "RelativeDocumentMoniker": "StoreWeb\\Views\\Product\\Details.cshtml",
               "ToolTip": "D:\\TAP\\FlowerStoreWeb\\StoreWeb\\StoreWeb\\Views\\Product\\Details.cshtml",
               "RelativeToolTip": "StoreWeb\\Views\\Product\\Details.cshtml",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-20T11:42:34.584Z",
               "EditorCaption": ""
@@ -67,12 +67,11 @@
               "RelativeToolTip": "StoreWeb\\Program.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T11:34:34.126Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-20T11:34:34.126Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "launchSettings.json",
               "DocumentMoniker": "D:\\TAP\\FlowerStoreWeb\\StoreWeb\\StoreWeb\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "StoreWeb\\Properties\\launchSettings.json",
@@ -80,8 +79,7 @@
               "RelativeToolTip": "StoreWeb\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-20T11:33:27.862Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-20T11:33:27.862Z"
             },
             {
               "$type": "Document",
@@ -93,12 +91,11 @@
               "RelativeToolTip": "StoreWeb\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-20T11:33:17.76Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-20T11:33:17.76Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\TAP\\FlowerStoreWeb\\StoreWeb\\StoreWeb\\Views\\Product\\Index.cshtml",
               "RelativeDocumentMoniker": "StoreWeb\\Views\\Product\\Index.cshtml",
@@ -106,8 +103,7 @@
               "RelativeToolTip": "StoreWeb\\Views\\Product\\Index.cshtml",
               "ViewState": "AgIAACoAAAAAAAAAAAAAADIAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-20T11:28:39.528Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-20T11:28:39.528Z"
             },
             {
               "$type": "Document",
@@ -117,7 +113,7 @@
               "RelativeDocumentMoniker": "StoreWeb\\Controllers\\ProductController.cs",
               "ToolTip": "D:\\TAP\\FlowerStoreWeb\\StoreWeb\\StoreWeb\\Controllers\\ProductController.cs",
               "RelativeToolTip": "StoreWeb\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAYwCgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-20T11:23:58.724Z",
               "EditorCaption": ""
@@ -132,21 +128,19 @@
               "RelativeToolTip": "StoreWeb\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAzwBUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T11:18:20.173Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-20T11:18:20.173Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "StoreWeb",
+              "Title": "StoreWeb.csproj",
               "DocumentMoniker": "D:\\TAP\\FlowerStoreWeb\\StoreWeb\\StoreWeb\\StoreWeb.csproj",
               "RelativeDocumentMoniker": "StoreWeb\\StoreWeb.csproj",
               "ToolTip": "D:\\TAP\\FlowerStoreWeb\\StoreWeb\\StoreWeb\\StoreWeb.csproj",
               "RelativeToolTip": "StoreWeb\\StoreWeb.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-20T10:51:33.698Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-20T10:51:33.698Z"
             }
           ]
         }

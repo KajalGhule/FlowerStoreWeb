@@ -30,7 +30,27 @@ namespace Catalog
             Console.WriteLine("-------------------------------------------------------------------");
     
             Product p = await ProductManager.Get(1);
-            Console.WriteLine(p.Category);
+            Console.WriteLine(p.Title);
+            List<Product> SoldOutProduct = await ProductManager.GetSoldOutProducts();
+            if (SoldOutProduct != null)
+            {
+                foreach (Product prod in SoldOutProduct)
+                {
+                    Console.WriteLine(prod.Title);
+                }
+            }
+            Console.WriteLine("-------------------------------------------------------------------");
+            var grouped = await ProductManager.GetProductsGroupByCategory();
+
+            foreach (var category in grouped)
+            {
+                Console.WriteLine($"Category: {category.Key}");
+                foreach (var product in category.Value)
+                {
+                    Console.WriteLine($"  - {product.Title}");
+                }
+            }
+
         }
     }
 }
