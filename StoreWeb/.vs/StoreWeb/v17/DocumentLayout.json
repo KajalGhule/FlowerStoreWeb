@@ -52,7 +52,7 @@
               "RelativeDocumentMoniker": "StoreWeb\\Views\\Product\\Details.cshtml",
               "ToolTip": "D:\\TAP\\FlowerStoreWeb\\StoreWeb\\StoreWeb\\Views\\Product\\Details.cshtml",
               "RelativeToolTip": "StoreWeb\\Views\\Product\\Details.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-20T11:42:34.584Z",
               "EditorCaption": ""
@@ -115,8 +115,7 @@
               "RelativeToolTip": "StoreWeb\\Controllers\\ProductController.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAAwBYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T11:23:58.724Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-20T11:23:58.724Z"
             },
             {
               "$type": "Document",
