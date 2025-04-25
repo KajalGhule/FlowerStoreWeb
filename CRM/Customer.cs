@@ -15,6 +15,14 @@ namespace CRM {
             this.Location = Location;
             this.Age = Age;
         }
+        public Customer(int id, string Name,string Email,string ContactNumber,string Location,int Age){
+            this.Id = id;
+            this.Name = Name;
+            this.Email = Email;
+            this.ContactNumber = ContactNumber;
+            this.Location = Location;
+            this.Age = Age;
+        }
         public Customer(int id, string Name,string Email,string ContactNumber){
             this.Id = id;
             this.Name = Name;
