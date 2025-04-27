@@ -12,17 +12,17 @@ Console.WriteLine("Hello, World!");
 
 
 // List<Customer> customers = CustomerDBManager.GetAll();
-// List<Customer> customers = CustomerDisDBManager.GetAll();
-// foreach(Customer c in customers) {
-//     Console.WriteLine("Name :: "+c.Name);
-// }
+List<Customer> customers = CustomerDisDBManager.GetAll();
+foreach(Customer c in customers) {
+    Console.WriteLine("Name :: "+c.Name);
+}
 
 // Customer cust = CustomerDisDBManager.GetById(1);
 // Console.WriteLine("Location :: "+cust.Location);
 
 // bool IsDeleted = CustomerDBManager.Delete(2);
-bool IsDeleted = CustomerDisDBManager.Delete(3);
-Console.WriteLine(IsDeleted + "*********");
+// bool IsDeleted = CustomerDisDBManager.Delete(3);
+// Console.WriteLine(IsDeleted + "*********");
 
 // Customer customer = new Customer(1, "Omkar R", "omkar@gmail.com", "896574126");
 

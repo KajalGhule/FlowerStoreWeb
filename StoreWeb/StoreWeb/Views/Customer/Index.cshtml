@@ -1,0 +1,29 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@using CRM;
+@{
+    ViewData["Title"] = "Customer Home Page";
+}
+<div>
+    <h1>Customer Catelog</h1>
+    <a href="/Customer/Insert"><button class="btn">Insert new Customer</button></a>
+    @{
+        List<Customer> customers = (List<Customer>) ViewData["allCustomers"];
+        <div>
+            <table>
+                @foreach(Customer customer in customers)
+                {
+                    <tr>
+                        <td><img src="/images/customers/user.png" width="20" height="20" /></td>
+                        <td>
+                            <h5>@customer.Name</h5>
+                            <p> @customer.ContactNumber</p>
+                        </td>
+                        <td><a href="/Customer/Details/@customer.Id"> <button>Details</button></a></td>
+                    </tr>
+                }
+            </table>
+        </div>
+    }
+</div>
