@@ -12,10 +12,11 @@ Console.WriteLine("Hello, World!");
 
 
 // List<Customer> customers = CustomerDBManager.GetAll();
-List<Customer> customers = CustomerDisDBManager.GetAll();
-foreach(Customer c in customers) {
-    Console.WriteLine("Name :: "+c.Name);
-}
+
+// List<Customer> customers = CustomerDisDBManager.GetAll();
+// foreach(Customer c in customers) {
+//     Console.WriteLine("Name :: "+c.Name);
+// }
 
 // Customer cust = CustomerDisDBManager.GetById(1);
 // Console.WriteLine("Location :: "+cust.Location);
